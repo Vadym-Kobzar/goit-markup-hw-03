@@ -320,8 +320,8 @@ address a {
   margin-bottom: 20px;
 }
 .portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .port-nav:not(:last-child) {
   margin-right: 8px;
