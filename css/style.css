@@ -327,6 +327,7 @@ address a {
   margin-right: 8px;
 }
 .portfolio-nav {
+  margin-bottom: 34px;
   display: flex;
   justify-content: center;
 }
