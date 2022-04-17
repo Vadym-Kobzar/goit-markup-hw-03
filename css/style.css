@@ -48,8 +48,8 @@ a {
 /*----------HEADER-------*/
 .container.head {
   display: flex;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .head {
   display: flex;
