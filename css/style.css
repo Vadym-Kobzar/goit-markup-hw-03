@@ -27,7 +27,7 @@ section {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 2px solid tomato;
+  /*outline: 2px solid tomato;*/
 }
 .accent-colour {
   color: var(--accentColour);
@@ -161,7 +161,7 @@ a {
 }
 .cont {
   display: inline-block;
-  outline: 2px tomato;
+  /*outline: 2px tomato;*/
 }
 .btn {
   margin-top: 30px;
