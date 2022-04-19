@@ -364,6 +364,7 @@ ul.list-item {
   margin-bottom: 34px;
 }
 .portfolio-nav-btn {
+  padding: 6px 22px 6px 22px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
