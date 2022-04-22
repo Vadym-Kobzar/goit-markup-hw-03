@@ -17,45 +17,40 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section>
-      <header>
-        <div class="container head">
-          <a class="header-logo" href="./index.html"
-            ><span class="accent-colour">Web</span>Studio</a
-          >
-          <nav>
-            <ul class="nav-list">
-              <li class="itemH">
-                <a class="current" href="./index.html">Студия</a>
-              </li>
-              <li class="itemH">
-                <a class="nav-link" href="./portfolio.html">Портфолио</a>
-              </li>
-              <li class="itemH">
-                <a class="nav-link" href="./index.html">Контакты</a>
-              </li>
-            </ul>
-          </nav>
-          <address>
-            <ul class="address-head">
-              <li class="address-list">
-                <a class="contact" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="address-list">
-                <a class="contact" href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
-      </header>
-    </section>
+    <header class="header section">
+      <div class="container head">
+        <a class="header-logo" href="./index.html"
+          ><span class="accent-colour">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="nav-list">
+            <li class="item-header">
+              <a class="current" href="./index.html">Студия</a>
+            </li>
+            <li class="item-header">
+              <a class="nav-link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item-header">
+              <a class="nav-link" href="./index.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="address-head">
+          <li class="address-list">
+            <a class="contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="address-list">
+            <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
     <main>
-      <section class="hero">
+      <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="btn" type="button" name="Заказать услугу">
@@ -64,7 +59,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="section benefits">
         <div class="container">
           <ul class="about-section">
             <li class="cont">
@@ -99,7 +94,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="section sample">
         <div class="container">
           <h2 class="visual">Чем мы занимаемся</h2>
           <ul class="list-item">
@@ -131,7 +126,7 @@
         </div>
       </section>
 
-      <section class="employees">
+      <section class="section employees">
         <div class="container">
           <h2 class="visual">Наша команда</h2>
           <ul class="list-item">
@@ -141,8 +136,10 @@
                 alt="улыбающийся парень в очках и с бородой"
                 width="270"
               />
-              <h3 class="employees-name">Игорь Демьяненко</h3>
-              <p class="employees-position">Product Designer</p>
+              <div class="employees-groop">
+                <h3 class="employees-name">Игорь Демьяненко</h3>
+                <p class="employees-position">Product Designer</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -150,8 +147,10 @@
                 alt=" жизнерадостная девушка блондинка в очках и пиджаке"
                 width="270"
               />
-              <h3 class="employees-name">Ольга Репина</h3>
-              <p class="employees-position">Frontend Develope</p>
+              <div class="employees-groop">
+                <h3 class="employees-name">Ольга Репина</h3>
+                <p class="employees-position">Frontend Develope</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -159,8 +158,10 @@
                 alt="смеющийся бородатый парень в рубашке"
                 width="270"
               />
-              <h3 class="employees-name">Николай Тарасов</h3>
-              <p class="employees-position">Marketing</p>
+              <div class="employees-groop">
+                <h3 class="employees-name">Николай Тарасов</h3>
+                <p class="employees-position">Marketing</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -168,15 +169,17 @@
                 alt="улыбающийся парень в футболке с очками и бородой"
                 width="270"
               />
-              <h3 class="employees-name">Михаил Ермаков</h3>
-              <p class="employees-position">UI Designer</p>
+              <div class="employees-groop">
+                <h3 class="employees-name">Михаил Ермаков</h3>
+                <p class="employees-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer class="footer-contact">
+    <footer class="footer">
       <div class="container">
         <a class="footer-logo" href="./index.html"
           ><span class="accent-colour">Web</span>Studio</a
@@ -185,13 +188,13 @@
         <address class="footer-address">
           <p class="footer-contact">г. Киев, пр-т Леси Украинки, 26</p>
           <ul>
-            <li>
+            <li class="footer-link">
               <a class="footer-contact" href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
 
-            <li>
+            <li class="footer-link">
               <a class="footer-contact" href="tel:+380991111111"
                 >+38 099 111 11 11</a
               >
